@@ -1,0 +1,37 @@
+{
+    "name": "shipu/muthofun-sms-gateway",
+    "description": "PHP client for MuthoFun SMS Payment Gateway API",
+    "keywords": ["muthofun", "php", "api", "gateway", "php-muthofun", "laravel", "lumen", "sms"],
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "CC(1.0)",
+    "authors": [
+        {
+            "name": "Shipu Ahamed",
+            "email": "shipuahamed01@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shipu\\MuthoFun\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shipu\\MuthoFun\\MuthoFunServiceProvider"
+            ],
+            "aliases": {
+                "MUTHOFUN": "Shipu\\MuthoFun\\Facades\\MuthoFun"
+            }
+        }
+    }
+}
