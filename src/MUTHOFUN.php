@@ -6,7 +6,7 @@ class MUTHOFUN extends AbstractApi
 {
     protected $config;
     protected $sms = [];
-    protected $debug = true;
+    protected $debug = false;
     protected $mobiles = [];
     protected $template = true;
     protected $autoParse = false;
