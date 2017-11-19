@@ -1,6 +1,10 @@
-# MUTHOFUN SMS Gateway
+<p align="center">
+<h1>MUTHOFUN SMS GATEWAY</h1>
+</p>
 
+<p align="center">
 muthofun-sms-gateway is a PHP client for MUTHOFUN SMS Gateway API. This package is also support Laravel and Lumen.
+</p>
 
 ## Installation
 
@@ -67,7 +71,7 @@ return [
 ## Usages
 Its very easy to use. This packages has a lot of functionalities and features.
 
-#### Send SMS to a single user
+### Send SMS to a single user
 
 **In PHP:**
 ```php
@@ -202,11 +206,11 @@ $msg = $sms->message("Hello %s , Your promo code is: %s", $users)->send();
 
 Here this messege will sent as every users with his name and promo code like:
 
-- 8801670420420 - Hello Nahid , Your promo code is: 1234
-- 8801970420420 - Hello Rana , Your promo code is: 3213
-- 8801770420420 - Hello Shipu , Your promo code is: 5000
-- 8801570420420 - Hello Kaiser , Your promo code is: 1234
-- 8801870420420 - Hello Eather , Your promo code is: 7642
+- `8801670420420` - Hello Nahid , Your promo code is: 1234
+- `8801970420420` - Hello Rana , Your promo code is: 3213
+- `8801770420420` - Hello Shipu , Your promo code is: 5000
+- `8801570420420` - Hello Kaiser , Your promo code is: 1234
+- `8801870420420` - Hello Eather , Your promo code is: 7642
 
 ### Change Number Prefix
 ```php
