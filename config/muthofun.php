@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'username' => env('MUTHOFUN_USERNAME','shipuahamed'),
-    'password' => env('MUTHOFUN_PASSWORD','shipuahamed')
+    'username' => env('MUTHOFUN_USERNAME',''),
+    'password' => env('MUTHOFUN_PASSWORD','')
 ];
