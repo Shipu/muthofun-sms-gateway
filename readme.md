@@ -1,9 +1,7 @@
-<p align="center">
-<h1>MUTHOFUN SMS GATEWAY</h1>
-</p>
+<h1 align="center">MUTHOFUN SMS GATEWAY</h1>
 
 <p align="center">
-muthofun-sms-gateway is a PHP client for MUTHOFUN SMS Gateway API. This package is also support Laravel and Lumen.
+    muthofun-sms-gateway is a PHP client for MUTHOFUN SMS Gateway API. This package is also support Laravel and Lumen.
 </p>
 
 ## Installation
