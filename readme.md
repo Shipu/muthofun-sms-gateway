@@ -248,7 +248,9 @@ SimpleXMLElement {#212 ▼
 }
 ```
 
-Special Thanks to [Salahuddin Rana](https://github.com/rana7cse) 
+Highly inspired by [Apiz Package](https://github.com/nahid/apiz) 
+
+Special Thanks to [Salahuddin Rana](https://github.com/rana7cse)
 
 ## Support on Beerpay
 Hey dude! Help me out for a couple of :beers:!
