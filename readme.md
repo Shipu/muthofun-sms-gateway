@@ -248,7 +248,7 @@ SimpleXMLElement {#212 ▼
 }
 ```
 
-Highly inspired by [Apiz Package](https://github.com/nahid/apiz) 
+Highly inspired by [Apiz Package](https://github.com/nahid/apiz) and [Sslwireless SMS Gateway](https://github.com/nahid/php-sslwireless-sms)
 
 Special Thanks to [Salahuddin Rana](https://github.com/rana7cse)
 
