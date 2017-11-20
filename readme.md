@@ -247,6 +247,9 @@ SimpleXMLElement {#212 ▼
         +"mobile-no": "+8801616022669"
 }
 ```
+
+Special Thanks to [Salahuddin Rana](https://github.com/rana7cse) 
+
 ## Support on Beerpay
 Hey dude! Help me out for a couple of :beers:!
 
