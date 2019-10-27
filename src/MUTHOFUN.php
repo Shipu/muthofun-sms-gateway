@@ -10,6 +10,7 @@ class MUTHOFUN extends AbstractApi
     protected $mobiles = [];
     protected $template = true;
     protected $autoParse = false;
+    protected $unicode = 0;
     protected $sendingParameters = [];
 
     /**
@@ -106,7 +107,7 @@ class MUTHOFUN extends AbstractApi
             'password' => $this->config[ 'password' ],
             'sms'      => $sms,
             'mobiles'  => $mobiles,
-            'unicode'  => '1'
+            'unicode'  => $this->unicode
         ];
 
         return $this;
@@ -277,6 +278,20 @@ class MUTHOFUN extends AbstractApi
     public function debug( $debug = false )
     {
         $this->debug = $debug;
+        return $this;
+    }
+    
+    /**
+     * Set Unicode
+     *
+     * @param bool $unicode
+     *
+     * @return $this
+     */
+    public function unicode( $unicode = 1 )
+    {
+        $this->unicode = $unicode;
+
         return $this;
     }
 
