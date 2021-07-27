@@ -200,12 +200,12 @@ class MUTHOFUN extends AbstractApi
         $mobiles = [];
         foreach ( $this->sms as $key => $message ) {
             if ( is_array($message) && isset($message[ 'message' ]) && isset($message[ 'to' ]) ) {
-                $sms[] = rawurlencode($message[ 'message' ]);
+                $sms[] = $message[ 'message' ];
                 $mobiles[] = $message[ 'to' ];
             } elseif ( $key === 'to' ) {
                 $mobiles[] = $message;
             } else {
-                $sms[] = rawurlencode($message);
+                $sms[] = $message;
             }
         }
 
